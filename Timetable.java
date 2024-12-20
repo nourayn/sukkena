@@ -22,7 +22,7 @@ public class Timetable {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
 
-        for (int i = 1; i <= 12; i++) {
+        for (int i = 1; i <= 20; i++) {
             System.out.println(number + " x " + i + " = " + (number * i));
         }
     }
